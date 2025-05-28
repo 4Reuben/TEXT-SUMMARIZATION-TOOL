@@ -15,7 +15,7 @@
 
 ---
 
-##Project Description
+## Project Description
 
 This project is a simple yet effective demonstration of Natural Language Processing (NLP) techniques to generate a concise summary from a large chunk of text. The objective is to extract the most relevant information from a given input and generate a shorter version that retains the original meaning. 
 
@@ -25,7 +25,7 @@ The script was developed as part of an internship at **CodTech IT Solutions**, a
 
 ---
 
-##Technologies & Tools Used
+## Technologies & Tools Used
 
 - **Python 3.x**
 - **spaCy** – for NLP processing (tokenization, sentence segmentation, stopwords, etc.)
@@ -36,7 +36,7 @@ The script was developed as part of an internship at **CodTech IT Solutions**, a
 
 ---
 
-##File Structure
+## File Structure
 
 Codtech IT Solutions/
 │
@@ -48,7 +48,7 @@ Codtech IT Solutions/
 
 ---
 
-##How It Works
+## How It Works
 
 1. **Input**: The script reads text from `sample_input.txt`.
 2. **Processing**: Using `spaCy`, the text is tokenized and processed to:
@@ -60,7 +60,7 @@ Codtech IT Solutions/
 
 ---
 
-##What I Did
+## What I Did
 
 - Installed and configured `spaCy`, and downloaded the `en_core_web_sm` model.
 - Wrote a function to read text input from a file.
@@ -71,7 +71,7 @@ Codtech IT Solutions/
 
 ---
 
-##What I Didn't Do (Yet)
+## What I Didn't Do (Yet)
 
 - No abstractive summarization or use of advanced ML/DL models like BERT.
 - No web interface or GUI (it's a CLI tool only).
@@ -80,7 +80,7 @@ Codtech IT Solutions/
 
 ---
 
-##What I Learned
+## What I Learned
 
 - How NLP libraries like `spaCy` tokenize and process text.
 - How to use `heapq` to select top items based on scoring.
@@ -90,7 +90,7 @@ Codtech IT Solutions/
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 Special thanks to **CodTech IT Solutions** for providing this opportunity. This was my first ever NLP project, and it helped me get familiar with the basics of text summarization and using Python for automation tasks.
 
