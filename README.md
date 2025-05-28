@@ -39,12 +39,19 @@ The script was developed as part of an internship at **CodTech IT Solutions**, a
 ## File Structure
 
 Codtech IT Solutions/
+
 │
+
 ├── Task-1/
+
 │ ├── summarizer.py # Main Python script
+
 │ ├── sample_input.txt # Input text file with content to summarize
+
 │ ├── output_summary.txt # Automatically generated summary
+
 │ └── README.md # Project documentation (this file)
+
 
 ---
 
@@ -94,6 +101,6 @@ Codtech IT Solutions/
 
 Special thanks to **CodTech IT Solutions** for providing this opportunity. This was my first ever NLP project, and it helped me get familiar with the basics of text summarization and using Python for automation tasks.
 
-**OUTPUT
+## OUTPUT
 
-(LINK FROM ISSUE)
+![Image](https://github.com/user-attachments/assets/59d10bf0-914b-4c09-ac14-6acfb7bfbbfa)
