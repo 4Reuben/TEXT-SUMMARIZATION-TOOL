@@ -12,9 +12,6 @@
 
 *MENTOR*: NEELA SANTOSH
 
-
----
-
 ## Project Description
 
 This project is a simple yet effective demonstration of Natural Language Processing (NLP) techniques to generate a concise summary from a large chunk of text. The objective is to extract the most relevant information from a given input and generate a shorter version that retains the original meaning. 
@@ -22,8 +19,6 @@ This project is a simple yet effective demonstration of Natural Language Process
 The summarizer is based on **frequency-based extractive summarization**, which uses the frequency of words to score sentences and select the top-ranking ones. It’s not abstractive or AI-generated text—it pulls the most meaningful lines from the original content. This type of summarization is fast, lightweight, and doesn't require any external API calls.
 
 The script was developed as part of an internship at **CodTech IT Solutions**, and it serves as Task 1 in the internship’s deliverables.
-
----
 
 ## Technologies & Tools Used
 
@@ -33,8 +28,6 @@ The script was developed as part of an internship at **CodTech IT Solutions**, a
 - **Jupyter Notebook / VS Code / Any Python IDE**
 - **Command Line Interface (CLI)** – for running the script
 - **Plain Text Files (.txt)** – for input and output
-
----
 
 ## File Structure
 
@@ -52,9 +45,6 @@ Codtech IT Solutions/
 
 │ └── README.md # Project documentation (this file)
 
-
----
-
 ## How It Works
 
 1. **Input**: The script reads text from `sample_input.txt`.
@@ -65,8 +55,6 @@ Codtech IT Solutions/
 3. **Summary Generation**: The top 3 scored sentences are selected and stitched together to form a summary.
 4. **Output**: The result is printed on the terminal and saved to `output_summary.txt`.
 
----
-
 ## What I Did
 
 - Installed and configured `spaCy`, and downloaded the `en_core_web_sm` model.
@@ -76,16 +64,12 @@ Codtech IT Solutions/
 - Saved the summary to a new file.
 - Tested the script on Wikipedia-style content.
 
----
-
 ## What I Didn't Do (Yet)
 
 - No abstractive summarization or use of advanced ML/DL models like BERT.
 - No web interface or GUI (it's a CLI tool only).
 - No dynamic input from user (file name is hard-coded).
 - Didn’t integrate it with any API or real-world application—yet.
-
----
 
 ## What I Learned
 
@@ -94,8 +78,6 @@ Codtech IT Solutions/
 - File handling in Python using UTF-8 encoding.
 - Debugging path and module errors using CLI.
 - How to build a functional mini project that outputs real results.
-
----
 
 ## Acknowledgments
 
